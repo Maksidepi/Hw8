@@ -1,0 +1,61 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+#greycol {
+  color: grey;
+}
+.text-box div p {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.text-box p:nth-of-type(4) {
+  color: green;
+}
+/* Стилізація для контейнера ul */
+div ul {
+  list-style-type: none;
+  padding: 0;
+}
+div h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+ul:nth-child(1) {
+  background-color: lightblue;
+}
+ul:nth-child(2) {
+  background-color: lightgreen;
+}
+ul:nth-child(3) {
+  background-color: lightpink;
+}
+ul:nth-child(4) {
+  background-color: lightyellow;
+}
+ul:nth-child(5) {
+  background-color: lightcoral;
+}
+div ul li {
+  padding: 8px;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+div ul li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+div ul li:first-child {
+  font-weight: bold; 
+}
+div ul li:nth-child(odd) {
+  background-color: #e0e0e0; 
+}
+div ul li:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+div ul li:last-child {
+  font-style: italic; 
+}
